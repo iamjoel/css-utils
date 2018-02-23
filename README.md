@@ -1,4 +1,4 @@
-# css utils collection
+# CSS utils collection
 常用 CSS 工具类。
 
 ## 安装
@@ -7,11 +7,12 @@ npm install css-utils-collection --save
 ```
 
 ## 使用
+<details>
+  <summary>详细</summary>
 普通项目
 ```
 <link rel="stylesheet" href="path-to/node_modules/css-utils-collection/dist/index.css" />
 ```
-
 
 webpack 项目
 ```
@@ -19,6 +20,11 @@ webpack 项目
 ```
 
 注意，需要安装了 style-loader。
+</details>
+
+
+## Demo
+* [仿微信的信息列表](https://iamjoel.github.io/css-utils-collection/example/list)
 
 ## 说明
 <details>
@@ -147,6 +153,8 @@ webpack 项目
 更多见[源码](./src/index.scss)。
 
 ## 约定
+<details>
+  <summary>详细</summary>
 * 类名规则是`样式单词的首字母缩写-值`。如
   * `mb-10` -> `margin-bottom: 10px`
   * `ta-c` -> `text-align: center`
@@ -163,7 +171,4 @@ webpack 项目
   * `{}`: 内包含的为可重复0至无数次的项。
   * `|`: 分隔不同选项。
 * 要增加优先级，可以在类名后面加`-i`。该样式会加被加上 `!important`。 如 `ta-c-i`。
-
-## Demo
-* [仿微信的信息列表](https://iamjoel.github.io/css-utils-collection/example/list)
-
+</details>
