@@ -20,11 +20,9 @@ webpack 项目
 
 注意，需要安装了 style-loader。
 
-
 ## 说明
 <details>
   <summary>用 CSS 工具类做页面的优缺点</summary>
-
 在做页面的过程中，给元素添加样式，常规做法是给元素加个类名。起个合适的类名，还满难的。如果我们把常用的样式定义成一个个工具类名，那么很多情况，我们只需要在元素上加工具类名，而不需要专门取名字。例如，做一个图文的列表，我们以前可能会这么写：
 ```
 <div class="list">
@@ -90,6 +88,8 @@ webpack 项目
 </details>
 
 ## 支持的工具类
+<details>
+  <summary>详细</summary>
 从外而内，从垂直（上到下）到水平（左到右），从布局(大小)到细节（颜色，字的粗细）。包括：
 
 * position,z-index,top,bottom,left,right。工具类:
@@ -142,8 +142,9 @@ webpack 项目
 * 复合规则
   * `placeholder` 来做组件占位。
   * `img-rwd` 响应式图片
+</details>
 
-源码见[这里](./src/index.scss)
+更多见[源码](./src/index.scss)。
 
 ## 约定
 * 类名规则是`样式单词的首字母缩写-值`。如
@@ -162,4 +163,7 @@ webpack 项目
   * `{}`: 内包含的为可重复0至无数次的项。
   * `|`: 分隔不同选项。
 * 要增加优先级，可以在类名后面加`-i`。该样式会加被加上 `!important`。 如 `ta-c-i`。
+
+## Demo
+* [仿微信的信息列表](https://iamjoel.github.io/css-utils-collection/example/list)
 
