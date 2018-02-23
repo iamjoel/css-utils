@@ -1,16 +1,36 @@
+/*
+* border-radius
+*/
 .br-lg {
   border-radius: 25px;
+}
+
+.br-lg-i {
+  border-radius: 25px !important;
 }
 
 .br-md {
   border-radius: 15px;
 }
 
+.br-md-i {
+  border-radius: 15px !important;
+}
+
 .br-sm {
   border-radius: 5px;
+}
+
+.br-sm-i {
+  border-radius: 5px !important;
 }
 
 .br-round {
   border-radius: 50%;
   overflow: hidden;/* 防止子元素如果有背景色，会覆盖圆角 */
+}
+
+.br-round-i {
+  border-radius: 50% !important;
+  overflow: hidden !important;/* 防止子元素如果有背景色，会覆盖圆角 */
 }

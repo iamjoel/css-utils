@@ -1,6 +1,13 @@
+/*
+* border
+*/
 @import "_vars";
 .b {
   border: 1px solid $border-color;
+}
+
+.b-i {
+  border: 1px solid $border-color !important;
 }
 
 .bh, .bhorizontal {
@@ -8,23 +15,27 @@
   border-bottom: 1px solid $border-color;
 }
 
+.bh-i, .bhorizontal-i {
+  border-top: 1px solid $border-color !important;
+  border-bottom: 1px solid $border-color !important;
+}
+
 .bv, .bvertical {
   border-left: 1px solid $border-color;
   border-right: 1px solid $border-color;
 }
 
-.bt, .btop {
-  border-top: 1px solid $border-color;
-}
-
-.br, .bright {
+.bv, .bvertical {
+  border-left: 1px solid $border-color;
   border-right: 1px solid $border-color;
 }
 
-.bb, .bbottom {
-  border-bottom: 1px solid $border-color;
-}
+@each $dir in (top,t), (right,r), (left,l), (bottom,b) {
+  .b#{nth($dir, 2)},.b#{nth($dir, 1)}, {
+    border-#{nth($dir, 1)}: 1px solid $border-color;
+  }
 
-.bl, .bleft {
-  border-left: 1px solid $border-color;
+  .b#{nth($dir, 2)}-i,.b#{nth($dir, 1)}-i, {
+    border-#{nth($dir, 1)}: 1px solid $border-color !important;
+  }
 }

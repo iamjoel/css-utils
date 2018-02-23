@@ -3,7 +3,7 @@
 
 ## 安装
 ```
-npm install css-css-utils-collection --save
+npm install css-utils-collection --save
 ```
 
 ## 使用

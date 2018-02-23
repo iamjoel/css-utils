@@ -1,28 +1,19 @@
-@import "_vars";
-
+@charset 'utf-8';
 /*
-  字相关的
+  font
 */
-.fz-xl {
-  font-size: 20px;
+@import "_vars";
+// 字体大小
+@each $item in (xl, 20), (lg, 18), (md, 16), (sm, 14), (xs, 12) {
+  .fz-#{nth($item, 1)} {
+    font-size: #{nth($item, 2)}px;
+  }
+  .fz-#{nth($item, 1)}-i {
+    font-size: #{nth($item, 2)}px !important;
+  }
 }
 
-.fz-lg {
-  font-size: 18px;
-}
-
-.fz-md {
-  font-size: 16px;
-}
-
-.fz-sm {
-  font-size: 14px;
-}
-
-.fz-xs {
-  font-size: 12px;
-}
-
+// 粗细
 .fw-bold, .fw-b {
   font-weight: bold;
 }
@@ -31,19 +22,14 @@
   font-weight: lighter;
 }
 
-/*
-  一般行高 1.2 ~ 1.5 之间
-*/
-.lh-lg {
-  line-height: 1.5;
-}
-
-.lh-md {
-  line-height: 1.2;
-}
-
-.lh-sm {
-  line-height: 1;
+// 行高。 一般行高 1.2 ~ 1.5 之间
+@each $item in (lg, 1.5), (md, 1.2), (sm, 1) {
+  .lh-#{nth($item, 1)} {
+    line-height: #{nth($item, 2)};
+  }
+  .lh-#{nth($item, 1)}-i {
+    line-height: #{nth($item, 2)} !important;
+  }
 }
 
 /*

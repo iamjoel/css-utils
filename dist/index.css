@@ -482,13 +482,30 @@
   padding-left: .4rem;
 }
 
+/*
+* border
+*/
 .b {
   border: 1px solid #ccc;
+}
+
+.b-i {
+  border: 1px solid #ccc !important;
 }
 
 .bh, .bhorizontal {
   border-top: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
+}
+
+.bh-i, .bhorizontal-i {
+  border-top: 1px solid #ccc !important;
+  border-bottom: 1px solid #ccc !important;
+}
+
+.bv, .bvertical {
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
 }
 
 .bv, .bvertical {
@@ -500,33 +517,70 @@
   border-top: 1px solid #ccc;
 }
 
+.bt-i, .btop-i {
+  border-top: 1px solid #ccc !important;
+}
+
 .br, .bright {
   border-right: 1px solid #ccc;
 }
 
-.bb, .bbottom {
-  border-bottom: 1px solid #ccc;
+.br-i, .bright-i {
+  border-right: 1px solid #ccc !important;
 }
 
 .bl, .bleft {
   border-left: 1px solid #ccc;
 }
 
+.bl-i, .bleft-i {
+  border-left: 1px solid #ccc !important;
+}
+
+.bb, .bbottom {
+  border-bottom: 1px solid #ccc;
+}
+
+.bb-i, .bbottom-i {
+  border-bottom: 1px solid #ccc !important;
+}
+
+/*
+* border-radius
+*/
 .br-lg {
   border-radius: 25px;
+}
+
+.br-lg-i {
+  border-radius: 25px !important;
 }
 
 .br-md {
   border-radius: 15px;
 }
 
+.br-md-i {
+  border-radius: 15px !important;
+}
+
 .br-sm {
   border-radius: 5px;
+}
+
+.br-sm-i {
+  border-radius: 5px !important;
 }
 
 .br-round {
   border-radius: 50%;
   overflow: hidden;
+  /* 防止子元素如果有背景色，会覆盖圆角 */
+}
+
+.br-round-i {
+  border-radius: 50% !important;
+  overflow: hidden !important;
   /* 防止子元素如果有背景色，会覆盖圆角 */
 }
 
@@ -576,26 +630,46 @@
 }
 
 /*
-  字相关的
+  font
 */
 .fz-xl {
   font-size: 20px;
+}
+
+.fz-xl-i {
+  font-size: 20px !important;
 }
 
 .fz-lg {
   font-size: 18px;
 }
 
+.fz-lg-i {
+  font-size: 18px !important;
+}
+
 .fz-md {
   font-size: 16px;
+}
+
+.fz-md-i {
+  font-size: 16px !important;
 }
 
 .fz-sm {
   font-size: 14px;
 }
 
+.fz-sm-i {
+  font-size: 14px !important;
+}
+
 .fz-xs {
   font-size: 12px;
+}
+
+.fz-xs-i {
+  font-size: 12px !important;
 }
 
 .fw-bold, .fw-b {
@@ -606,19 +680,28 @@
   font-weight: lighter;
 }
 
-/*
-  一般行高 1.2 ~ 1.5 之间
-*/
 .lh-lg {
   line-height: 1.5;
+}
+
+.lh-lg-i {
+  line-height: 1.5 !important;
 }
 
 .lh-md {
   line-height: 1.2;
 }
 
+.lh-md-i {
+  line-height: 1.2 !important;
+}
+
 .lh-sm {
   line-height: 1;
+}
+
+.lh-sm-i {
+  line-height: 1 !important;
 }
 
 /*
