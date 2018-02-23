@@ -1,0 +1,30 @@
+@import "_vars";
+.b {
+  border: 1px solid $border-color;
+}
+
+.bh, .bhorizontal {
+  border-top: 1px solid $border-color;
+  border-bottom: 1px solid $border-color;
+}
+
+.bv, .bvertical {
+  border-left: 1px solid $border-color;
+  border-right: 1px solid $border-color;
+}
+
+.bt, .btop {
+  border-top: 1px solid $border-color;
+}
+
+.br, .bright {
+  border-right: 1px solid $border-color;
+}
+
+.bb, .bbottom {
+  border-bottom: 1px solid $border-color;
+}
+
+.bl, .bleft {
+  border-left: 1px solid $border-color;
+}

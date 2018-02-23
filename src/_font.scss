@@ -1,0 +1,77 @@
+@import "_vars";
+
+/*
+  字相关的
+*/
+.fz-xl {
+  font-size: 20px;
+}
+
+.fz-lg {
+  font-size: 18px;
+}
+
+.fz-md {
+  font-size: 16px;
+}
+
+.fz-sm {
+  font-size: 14px;
+}
+
+.fz-xs {
+  font-size: 12px;
+}
+
+.fw-bold, .fw-b {
+  font-weight: bold;
+}
+
+.fw-light, .fw-lighter, .fw-l{
+  font-weight: lighter;
+}
+
+/*
+  一般行高 1.2 ~ 1.5 之间
+*/
+.lh-lg {
+  line-height: 1.5;
+}
+
+.lh-md {
+  line-height: 1.2;
+}
+
+.lh-sm {
+  line-height: 1;
+}
+
+/*
+  雅黑
+  "STXihei" 是微软雅黑在Mac平台上的对应字体
+*/
+.ff-yahei{
+  font-family: tahoma,arial,"STXihei","Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", "宋体", SimSun;
+}
+/* 普通黑体 */
+.ff-hei{
+    font-family: tahoma,arial,"STXihei",SimHei,"Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", "宋体", SimSun;
+}
+/* 宋体 */
+.ff-song{
+  font-family: tahoma,arial,"宋体", SimSun;
+}
+
+/* 
+  c-grey,c-lighter-grey 一般用在要淡化的文字上
+*/
+.c-grey {
+  color: $text-grey;
+}
+
+.c-light-grey {
+  color: $text-light-grey;
+}
+.c-primary {
+  color: $text-primary
+}

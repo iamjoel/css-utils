@@ -1,0 +1,73 @@
+/*
+  布局
+*/
+.ly {
+  display: flex;
+}
+
+.ly-multi {
+  flex-wrap: wrap;
+}
+
+.ly-center, .ly-c {
+  justify-content: center;
+}
+
+.ly-around, .ly-a {
+  justify-content: space-around;
+}
+
+.ly-right, .ly-r {
+  justify-content: flex-end;
+}
+
+.ly-justify, .ly-j {
+  justify-content: space-between;
+}
+
+.ly-top, .ly-t {
+  align-items: top;
+}
+
+.ly-middle, .ly-m {
+  align-items: center;
+}
+
+.ly-bottom, .ly-b {
+  align-items: flex-end;
+}
+
+.lyi-fill {
+  /* 不会超出父元素*/
+  width: 0;
+  flex-grow: 1;
+}
+/*
+  非块级元素的居中
+*/
+.ta-center,.ta-c {
+  text-align: center;
+}
+
+.ta-right,.ta-r {
+  text-align: right;
+}
+
+.pos-r {
+  position: relative;
+}
+
+/*
+  盒模型
+*/
+.border-box {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.content-box {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}

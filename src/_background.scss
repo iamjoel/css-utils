@@ -1,0 +1,35 @@
+@import "_vars";
+.bgc-grey {
+  background-color: $background-grey;
+}
+.bgc-grey-i {
+  background-color: $background-grey !important;
+}
+
+.bgz-cover {
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.bgz-cover-i {
+  -webkit-background-size: cover !important;
+  background-size: cover !important;
+}
+
+.bgz-contain {
+  -webkit-background-size: contain;
+  background-size: contain;
+}
+.bgz-contain-i {
+  -webkit-background-size: contain !important;
+  background-size: contain !important;
+}
+
+.bgz-100 {
+  -webkit-background-size: 100%;
+  background-size: 100%;
+}
+
+.bgz-100-i {
+  -webkit-background-size: 100% !important;
+  background-size: 100% !important;
+}

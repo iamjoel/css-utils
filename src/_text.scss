@@ -1,0 +1,26 @@
+/* 
+单行文本,超出显示省略号。
+注意，对块级元素有效。
+*/
+.text-dotdotdot, .t-ddd, .text-ellipsis{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* 
+多行文本。超出显示省略号。
+兼容性比较差。建议用 JS 库来做。
+*/
+.text-ellipsis-multi {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  /*可能需要调整行高，如 line-height: 130%;*/
+}
+
+/* 禁止选中文本 */
+.text-no-select {
+  user-select:none;
+}

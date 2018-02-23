@@ -1,0 +1,16 @@
+.br-lg {
+  border-radius: 25px;
+}
+
+.br-md {
+  border-radius: 15px;
+}
+
+.br-sm {
+  border-radius: 5px;
+}
+
+.br-round {
+  border-radius: 50%;
+  overflow: hidden;/* 防止子元素如果有背景色，会覆盖圆角 */
+}

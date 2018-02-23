@@ -1,0 +1,24 @@
+%placeholder {
+  box-sizing: border-box;
+  display: flex;
+  border: 1px solid #f00;
+  background-color: #ddd;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  color: #fff;
+}
+.placeholder {
+  @extend %placeholder;
+}
+
+.placeholder-i {
+  display: inline;
+  @extend %placeholder;
+}
+
+.placeholder-ib {
+  display: inline-block;
+  @extend %placeholder;
+}
