@@ -1,6 +1,6 @@
 {
   "name": "css-utils-collection",
-  "version": "0.0.9",
+  "version": "1.0.0",
   "description": "CSS utility classes for commonly used basic styles",
   "main": "dist/index.css",
   "scripts": {
