@@ -1,6 +1,26 @@
 # css utils collection
-> 常用 CSS 工具类
+常用 CSS 工具类。
 
+## 安装
+```
+npm install css-css-utils-collection --save
+```
+
+## 使用
+普通项目：
+```
+<link rel="stylesheet" href="path-to/node_modules/css-utils-collection/dist/index.css" />
+```
+
+webpack 的项目
+```
+<style src="css-utils-collection"></style>
+```
+
+注意，需要安装了 style-loader。
+
+
+## 介绍
 在做页面的过程中，给元素添加样式，常规做法是给元素加个类名。起个合适的类名，还满难的。如果我们把常用的样式定义成一个个工具类名，那么很多情况，我们只需要在元素上加工具类名，而不需要专门取名字。例如，做一个图文的列表，我们以前可能会这么写：
 ```
 <div class="list">
