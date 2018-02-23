@@ -9,6 +9,7 @@ npm install css-utils-collection --save
 ## 使用
 <details>
   <summary>详细</summary>
+
 普通项目
 ```
 <link rel="stylesheet" href="path-to/node_modules/css-utils-collection/dist/index.css" />
@@ -155,6 +156,7 @@ webpack 项目
 ## 约定
 <details>
   <summary>详细</summary>
+
 * 类名规则是`样式单词的首字母缩写-值`。如
   * `mb-10` -> `margin-bottom: 10px`
   * `ta-c` -> `text-align: center`
