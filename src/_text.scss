@@ -1,6 +1,5 @@
 /* 
 单行文本,超出显示省略号。
-注意，对块级元素有效。
 */
 .text-dotdotdot, .t-ddd, .text-ellipsis{
   white-space: nowrap;
@@ -21,6 +20,10 @@
 }
 
 /* 禁止选中文本 */
-.text-no-select {
+.text-no-select, .t-no-select {
   user-select:none;
+}
+
+.tt-u {
+  text-transform: uppercase;
 }

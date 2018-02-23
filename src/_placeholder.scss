@@ -12,13 +12,3 @@
 .placeholder {
   @extend %placeholder;
 }
-
-.placeholder-i {
-  display: inline;
-  @extend %placeholder;
-}
-
-.placeholder-ib {
-  display: inline-block;
-  @extend %placeholder;
-}

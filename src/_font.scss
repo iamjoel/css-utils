@@ -17,9 +17,15 @@
 .fw-bold, .fw-b {
   font-weight: bold;
 }
+.fw-bold-i, .fw-b-i {
+  font-weight: bold !important;
+}
 
 .fw-light, .fw-lighter, .fw-l{
   font-weight: lighter;
+}
+.fw-light-i, .fw-lighter-i, .fw-l-i{
+  font-weight: lighter !important;
 }
 
 // 行高。 一般行高 1.2 ~ 1.5 之间
@@ -32,32 +38,58 @@
   }
 }
 
-/*
-  雅黑
-  "STXihei" 是微软雅黑在Mac平台上的对应字体
-*/
+
+// 字体
+/* 微软雅黑 */
+// "STXihei" 是微软雅黑在Mac平台上的对应字体
 .ff-yahei{
   font-family: tahoma,arial,"STXihei","Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", "宋体", SimSun;
 }
+.ff-yahei-i{
+  font-family: tahoma,arial,"STXihei","Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", "宋体", SimSun !important;
+}
+
 /* 普通黑体 */
 .ff-hei{
     font-family: tahoma,arial,"STXihei",SimHei,"Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", "宋体", SimSun;
 }
+.ff-hei-i{
+    font-family: tahoma,arial,"STXihei",SimHei,"Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", "宋体", SimSun !important;
+}
+
 /* 宋体 */
 .ff-song{
   font-family: tahoma,arial,"宋体", SimSun;
 }
+.ff-song-i{
+  font-family: tahoma,arial,"宋体", SimSun !important;
+}
 
-/* 
-  c-grey,c-lighter-grey 一般用在要淡化的文字上
-*/
+// 颜色
+.c-i {
+  color: inherit;
+}
+.c-i-i {
+  color: inherit !important;
+}
+
 .c-grey {
   color: $text-grey;
+}
+.c-grey-i {
+  color: $text-grey !important;
 }
 
 .c-light-grey {
   color: $text-light-grey;
 }
+.c-light-grey-i {
+  color: $text-light-grey !important;
+}
+
 .c-primary {
-  color: $text-primary
+  color: $text-primary;
+}
+.c-primary-i {
+  color: $text-primary !important;
 }
