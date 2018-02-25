@@ -103,7 +103,7 @@ webpack 项目
 * position,z-index,top,bottom,left,right。工具类:
   * `pos-r`
 * margin。工具类:
-  * `m[t|b|l|r]-<0|5|10|15|20>[rem]`
+  * `m[t|b|l|r|v|h]-<0|5|10|15|20>[rem]`
 * 盒模型。工具类:
   * `border-box`, `content-box`
 * border。工具类:
@@ -114,7 +114,7 @@ webpack 项目
   * `cursor-p` 手形
   * `cursor-na` 禁用
 * padding。工具类:
-  * `p[t|b|l|r]-<0|5|10|15|20>[rem]`
+  * `p[t|b|l|r|v|h]-<0|5|10|15|20>[rem]`
 * background。工具类:
   * `bgc-grey`
   * `bgz-<cover|contain|100>`
@@ -164,7 +164,8 @@ webpack 项目
   * 特例
     * `ly` 布局相关相关的。
     * `pos` -> `position`， border-box, content-box。 
-* 尺寸用 xl, lg, md, sm, xm 分别代表 特大，大，中等，小，特小。
+* xl, lg, md, sm, xm 分别代表 特大，大，中等，小，特小。
+* t,r,b,l,v,h 分别表示上，右，下，左，垂直，水平。
 * 默认数值的单位是px，如 `mb-10` -> `margin-bottom: 10px`。 百分比的单位是 `per`: 如，`w-100per` -> `width: 100%;`。rem 的单位是rem：如 `pr-10rem`。
 * 颜色深浅，分别用 dark，light。如
   * `c-light-grey`

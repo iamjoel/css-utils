@@ -64,6 +64,22 @@ $maxValue: 20;
     .#{nth($rule, 2)}-#{$i}-i {
       #{nth($rule, 1)}: $value !important;
     }
+    .#{nth($rule, 2)}h-#{$i} {
+      #{nth($rule, 1)}-left: $value;
+      #{nth($rule, 1)}-right: $value;
+    }
+    .#{nth($rule, 2)}h-#{$i}-i {
+      #{nth($rule, 1)}-left: $value !important;
+      #{nth($rule, 1)}-right: $value !important;
+    }
+    .#{nth($rule, 2)}v-#{$i} {
+      #{nth($rule, 1)}-top: $value;
+      #{nth($rule, 1)}-bottom: $value;
+    }
+    .#{nth($rule, 2)}v-#{$i}-i {
+      #{nth($rule, 1)}-top: $value !important;
+      #{nth($rule, 1)}-bottom: $value !important;
+    }
     @if($value != 0) {
       $remValue: #{$i/50}rem;
       .#{nth($rule, 2)}-#{$i}rem {
@@ -71,6 +87,24 @@ $maxValue: 20;
       }
       .#{nth($rule, 2)}-#{$i}rem-i {
         #{nth($rule, 1)}: $remValue !important;
+      }
+
+      .#{nth($rule, 2)}h-#{$i}rem {
+        #{nth($rule, 1)}-left: $remValue;
+        #{nth($rule, 1)}-right: $remValue;
+      }
+      .#{nth($rule, 2)}h-#{$i}rem-i {
+        #{nth($rule, 1)}-left: $remValue !important;
+        #{nth($rule, 1)}-right: $remValue !important;
+      }
+
+      .#{nth($rule, 2)}v-#{$i}rem {
+        #{nth($rule, 1)}-top: $remValue;
+        #{nth($rule, 1)}-bottom: $remValue;
+      }
+      .#{nth($rule, 2)}v-#{$i}rem-i {
+        #{nth($rule, 1)}-top: $remValue !important;
+        #{nth($rule, 1)}-bottom: $remValue !important;
       }
     }
     $i: $i + 5;
