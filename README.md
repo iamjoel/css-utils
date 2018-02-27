@@ -6,6 +6,12 @@
 npm install css-utils-collection --save
 ```
 
+或用 CDN
+```
+<link rel="stylesheet" href="https://unpkg.com/css-utils-collection" />
+```
+
+
 ## 使用
 <details>
   <summary>详细</summary>
