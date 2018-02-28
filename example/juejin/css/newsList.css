@@ -1,0 +1,42 @@
+body {
+  padding-top: 45px;
+}
+.bg {
+  background-color: #fff;
+}
+.header-icon {
+  position: absolute;
+  right: 16px;
+  top: 5px;
+  font-size: 28px;
+  color: #007fff;
+}
+.fire-icon {
+  color: #de4849;
+}
+.item-img {
+  width: 80px;
+  height: 80px;
+}
+.name {
+  margin-top: 65px;
+}
+.head-img {
+  width: 40px;
+  height: 40px;
+}
+.head-name {
+  color: #6a87a4;
+}
+.attention {
+  margin: auto 0;
+}
+.list-img {
+  width: 150px;
+  height: 150px;
+}
+.item-img {
+  width: 80px;
+  height: 80px;
+}
+

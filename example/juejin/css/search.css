@@ -1,0 +1,25 @@
+
+body {
+  padding-top: 55px;
+}
+.search-input {
+  height: 30px;
+  border: none;
+  background-color: #e1e2e6;
+}
+.search-input:focus {
+  text-align: left;
+}
+.fire-icon {
+  color: #de4849;
+}
+.bg {
+  background-color: #fff;
+}
+.list {
+  background-color: #fff;
+}
+.list-item {
+  display: block;
+  color: #000;
+}

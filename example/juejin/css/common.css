@@ -1,0 +1,24 @@
+body {
+  padding-bottom: 80px;
+  line-height: 1.2;
+}
+a {
+  text-decoration: none;
+}
+.header {
+  position: fixed;
+  top: 0;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+}
+.footer .iconfont {
+  font-size: 24px;
+}
+.footer-items {
+  color: #007fff;
+}
+.footer-item {
+  display: block;
+}
