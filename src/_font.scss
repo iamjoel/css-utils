@@ -8,7 +8,13 @@
   .fz-#{nth($item, 1)} {
     font-size: #{nth($item, 2)}px;
   }
+  .fz-#{nth($item, 2)} {
+    font-size: #{nth($item, 2)}px;
+  }
   .fz-#{nth($item, 1)}-i {
+    font-size: #{nth($item, 2)}px !important;
+  }
+  .fz-#{nth($item, 2)}-i {
     font-size: #{nth($item, 2)}px !important;
   }
 }

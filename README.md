@@ -18,6 +18,11 @@ npm install css-utils-collection --save
 
 普通项目
 ```
+<link rel="stylesheet" href="path-to/node_modules/css-utils-collection/dist/min/index.css" />
+```
+
+未压缩版
+```
 <link rel="stylesheet" href="path-to/node_modules/css-utils-collection/dist/index.css" />
 ```
 
@@ -150,7 +155,7 @@ webpack 项目
   * `t-no-select`：禁止选择文本。
   * `tt-u`：字母大写。
 * font
-  * `fz-<xg|lg|md|sm|xs>`
+  * `fz-<xl|20|lg|18|md|16|sm|14|xs|12>` xl,lg,md,sm,xs 分别对应 20px, 18px, 16px, 14px, 12px。
   * `fw-<b|l>`
   * `ff-<yahei|hei|song>`
   * `c-<i|grey|light-grey|primary>` 。`c-i` -> `color: inherit`

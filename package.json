@@ -4,7 +4,8 @@
   "description": "CSS utility classes for commonly used basic styles",
   "main": "dist/min/index.css",
   "scripts": {
-    "build": "sass --update src:dist/min --style compressed & sass --update src:dist --style expanded"
+    "complie": "sass --update src:dist --style expanded",
+    "build": "sass --update src:dist/min --style compressed & npm run complie"
   },
   "repository": {
     "type": "git",

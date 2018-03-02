@@ -1376,7 +1376,15 @@ img
   font-size: 20px;
 }
 
+.fz-20 {
+  font-size: 20px;
+}
+
 .fz-xl-i {
+  font-size: 20px !important;
+}
+
+.fz-20-i {
   font-size: 20px !important;
 }
 
@@ -1384,7 +1392,15 @@ img
   font-size: 18px;
 }
 
+.fz-18 {
+  font-size: 18px;
+}
+
 .fz-lg-i {
+  font-size: 18px !important;
+}
+
+.fz-18-i {
   font-size: 18px !important;
 }
 
@@ -1392,7 +1408,15 @@ img
   font-size: 16px;
 }
 
+.fz-16 {
+  font-size: 16px;
+}
+
 .fz-md-i {
+  font-size: 16px !important;
+}
+
+.fz-16-i {
   font-size: 16px !important;
 }
 
@@ -1400,7 +1424,15 @@ img
   font-size: 14px;
 }
 
+.fz-14 {
+  font-size: 14px;
+}
+
 .fz-sm-i {
+  font-size: 14px !important;
+}
+
+.fz-14-i {
   font-size: 14px !important;
 }
 
@@ -1408,7 +1440,15 @@ img
   font-size: 12px;
 }
 
+.fz-12 {
+  font-size: 12px;
+}
+
 .fz-xs-i {
+  font-size: 12px !important;
+}
+
+.fz-12-i {
   font-size: 12px !important;
 }
 
