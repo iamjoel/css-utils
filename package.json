@@ -2,9 +2,9 @@
   "name": "css-utils-collection",
   "version": "1.0.0",
   "description": "CSS utility classes for commonly used basic styles",
-  "main": "dist/index.css",
+  "main": "dist/min/index.css",
   "scripts": {
-    "sass": "sass --update src:dist --style expanded "
+    "build": "sass --update src:dist/min --style compressed & sass --update src:dist --style expanded"
   },
   "repository": {
     "type": "git",
