@@ -162,6 +162,9 @@ webpack 项目
 * 复合规则
   * `placeholder` 来做组件占位。
   * `img-rwd` 响应式图片
+* 其他：这些需要引用额外的css。在 `dist/more` 下
+  * `triangle-<t|r|b|l>` 实心三角。
+
 </details>
 
 更多见[源码](./src/index.scss)。

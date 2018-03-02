@@ -1,0 +1,32 @@
+$size: 5px;
+$color: #ddd;
+
+.triangle-t,
+.triangle-r,
+.triangle-b,
+.triangle-l {
+  position: relative;
+  width: 0;
+  height: 0;
+  border: $size solid transparent;
+}
+
+.triangle-t {
+  bottom: $size / 2;
+  border-bottom-color: $color;
+}
+
+.triangle-r {
+  left: $size / 2;
+  border-left-color: $color;
+}
+
+.triangle-b {
+  top: $size / 2;
+  border-top-color: $color;
+}
+
+.triangle-l {
+  right: $size / 2;
+  border-right-color: $color;
+}
