@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+  <link rel="stylesheet" href="../assets/reset.css">
+  <link rel="stylesheet" href="../../dist/index.css">
+  <style>
+    .wrap {
+      margin: 10px;
+      background-color: red;
+    }
+    .item {
+      width: 30px;
+      height: 30px;
+      text-align: center;
+      background-color: green;
+    }
+
+    .header,.footer {
+      height: 30px;
+      line-height: 30px;
+      text-align: center;
+      background-color: #eee;
+    }
+    
+  </style>
+</head>
+<body>
+  <h2>水平居中</h2>
+  <div class="wrap ly ly-c">
+    <div class="item"></div>
+    <div class="item" style="margin-left: 10px"></div>
+    <div class="item" style="margin-left: 10px"></div>
+  </div>
+
+  <h2>水平两端对齐</h2>
+  <div class="wrap ly ly-j">
+    <div class="item"></div>
+    <div class="item" style="margin-left: 10px"></div>
+    <div class="item" style="margin-left: 10px"></div>
+  </div>
+    
+  <h2>垂直居中</h2>
+  <div class="wrap ly ly-m" style="height: 200px">
+    <div class="item"></div>
+    <div class="item" style="margin-left: 10px"></div>
+    <div class="item" style="margin-left: 10px"></div>
+  </div>
+  
+  <h2>垂直方向对齐</h2>
+  <div class="wrap ly lyd-c ly-j" style="height: 200px">
+    <div class="item"></div>
+    <div class="item" style="margin-top: 10px"></div>
+    <div class="item" style="margin-top: 10px"></div>
+  </div>
+
+  <h2>垂直水平居中</h2>
+  <div class="wrap ly ly-c ly-m" style="height: 200px">
+    <div class="item"></div>
+    <div class="item" style="margin-left: 10px"></div>
+    <div class="item" style="margin-left: 10px"></div>
+  </div>
+
+  <h2>圣杯/双飞燕布局</h2>
+  <div class="header">header</div>
+  <div class="ly">
+    <div class="item" style="width: 200px">left</div>
+    <div class="item lyi-f" style="background: blue">main</div>
+    <div class="item" style="width: 200px">right</div>
+  </div>
+  <div class="footer">footer</div>
+
+  <h2>宽度不固定的绝对定位元素水平居中</h2>
+  <div class="wrap pos-r" style="height: 200px;width: 200px">
+    <div class="item ly-abs-c" style="top: 0"></div>
+  </div>
+
+  <h2>宽度不固定的绝对定位元素垂直居中</h2>
+  <div class="wrap pos-r" style="height: 200px;width: 200px">
+    <div class="item ly-abs-m" style="left: 0"></div>
+  </div>
+  
+</body>
+</html>

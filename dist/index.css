@@ -6,6 +6,10 @@
   display: flex;
 }
 
+.lyd-c {
+  flex-direction: column;
+}
+
 .ly-multi {
   flex-wrap: wrap;
 }
@@ -38,10 +42,24 @@
   align-items: flex-end;
 }
 
-.lyi-fill {
+.lyi-fill, .lyi-f {
   /* 不会超出父元素*/
   width: 0;
   flex-grow: 1;
+}
+
+/* 宽度不固定的绝对定位元素水平居中 */
+.ly-abs-c {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* 高度不固定的绝对定位元素垂直居中 */
+.ly-abs-m {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .ta-center, .ta-c {
