@@ -163,8 +163,8 @@ webpack 项目
   * `ff-<yahei|hei|song>`
   * `c-<i|grey|light-grey|primary>` 。`c-i` -> `color: inherit`
 * 复合规则
-  * ly-abs-c: 宽度不固定的绝对定位元素水平居中
-  * ly-abs-m: 高度不固定的绝对定位元素垂直居中
+  * `ly-abs-c`: 宽度不固定的绝对定位元素水平居中
+  * `ly-abs-m`: 高度不固定的绝对定位元素垂直居中
   * `placeholder` 来做组件占位。
   * `img-rwd` 响应式图片
 * 其他：这些需要引用额外的css。在 `dist/more` 下
