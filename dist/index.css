@@ -1369,12 +1369,12 @@ cursor
   background-size: contain !important;
 }
 
-.bgz-100 {
+.bgz-100per, .bgz-100 {
   -webkit-background-size: 100%;
   background-size: 100%;
 }
 
-.bgz-100-i {
+.bgz-100per-i, .bgz-100-i {
   -webkit-background-size: 100% !important;
   background-size: 100% !important;
 }
@@ -1535,6 +1535,11 @@ img
 
 .ff-song-i {
   font-family: tahoma,arial,"宋体", SimSun !important;
+}
+
+.c-white,
+.c-fff {
+  color: #fff;
 }
 
 .c-i {

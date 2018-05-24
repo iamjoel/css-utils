@@ -130,7 +130,7 @@ webpack 项目
   * `p[t|b|l|r|v|h]-<0|5|10|15|20>[rem]`
 * background。工具类:
   * `bgc-grey`
-  * `bgz-<cover|contain|100>`
+  * `bgz-<cover|contain|100per>`
 * display。 flex,block...
   * `ly`
   * `d-<b|ib|n>`
@@ -161,7 +161,7 @@ webpack 项目
   * `fz-<xl|20|lg|18|md|16|sm|14|xs|12>` xl,lg,md,sm,xs 分别对应 20px, 18px, 16px, 14px, 12px。
   * `fw-<b|l>`
   * `ff-<yahei|hei|song>`
-  * `c-<i|grey|light-grey|primary>` 。`c-i` -> `color: inherit`
+  * `c-<i|white|grey|light-grey|primary>` 。`c-i` -> `color: inherit`
 * 复合规则
   * `ly-abs-c`: 宽度不固定的绝对定位元素水平居中
   * `ly-abs-m`: 高度不固定的绝对定位元素垂直居中
