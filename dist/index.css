@@ -74,6 +74,34 @@
   position: relative;
 }
 
+/* 左上 */
+.pos-tl {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* 右上 */
+.pos-tr {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/* 左下 */
+.pos-bl {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+/* 右下 */
+.pos-br {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
 /*
   盒模型
 */
@@ -1540,6 +1568,11 @@ img
 .c-white,
 .c-fff {
   color: #fff;
+}
+
+.c-black,
+.c-000 {
+  color: #000;
 }
 
 .c-i {
