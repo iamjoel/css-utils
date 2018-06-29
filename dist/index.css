@@ -1628,6 +1628,18 @@ img
   /*可能需要调整行高，如 line-height: 130%;*/
 }
 
+/* 文字两端对齐 */
+.t-ly-j {
+  text-align: justify;
+}
+
+.t-ly-j:after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+  height: 0;
+}
+
 /* 禁止选中文本 */
 .text-no-select, .t-no-select {
   user-select: none;

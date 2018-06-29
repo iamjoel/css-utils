@@ -155,6 +155,7 @@ webpack 项目
   * `ta-<c|r>`
 * text
   * `t-ddd` :单行文本超出加省略号。
+  * `t-ly-j` :文字两端对齐。
   * `t-no-select`：禁止选择文本。
   * `tt-u`：字母大写。
 * font
