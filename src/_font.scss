@@ -46,8 +46,10 @@
 
 
 // 字体
-/* 微软雅黑 */
-// "STXihei" 是微软雅黑在Mac平台上的对应字体
+/* 
+* 微软雅黑
+* "STXihei" 是微软雅黑在Mac平台上的对应字体
+*/
 .ff-yahei{
   font-family: tahoma,arial,"STXihei","Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", "宋体", SimSun;
 }
@@ -72,6 +74,13 @@
 }
 
 // 颜色
+.c-i {
+  color: inherit;
+}
+.c-i-i {
+  color: inherit !important;
+}
+
 .c-white,
 .c-fff {
   color: #fff;
@@ -82,11 +91,16 @@
   color: #000;
 }
 
-.c-i {
-  color: inherit;
+.c-333 {
+  color: #333;
 }
-.c-i-i {
-  color: inherit !important;
+
+.c-666 {
+  color: #666;
+}
+
+.c-999 {
+  color: #999;
 }
 
 .c-grey {

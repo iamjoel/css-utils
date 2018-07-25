@@ -5,6 +5,7 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  line-height: 1.2; /*修复部分手机出现的头部文字头部会隐藏掉一点点的问题。*/
 }
 
 /* 

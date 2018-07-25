@@ -162,12 +162,14 @@ webpack 项目
   * `fz-<xl|20|lg|18|md|16|sm|14|xs|12>` xl,lg,md,sm,xs 分别对应 20px, 18px, 16px, 14px, 12px。
   * `fw-<b|l>`
   * `ff-<yahei|hei|song>`
-  * `c-<i|white|grey|light-grey|primary>` 。`c-i` -> `color: inherit`
+  * `c-<i|white|black|000|333|666|999|grey|light-grey|primary>` 。`c-i` -> `color: inherit`
 * 复合规则
   * `ly-abs-c`: 宽度不固定的绝对定位元素水平居中
   * `ly-abs-m`: 高度不固定的绝对定位元素垂直居中
   * `placeholder` 来做组件占位。
   * `img-rwd` 响应式图片
+* 兼容性的
+  * `smooth-scroll` 解决 当内容很多时，ios 的滚动比较生涩 的问题。
 * 其他：这些需要引用额外的css。在 `dist/more` 下
   * `triangle-<t|r|b|l>` 实心三角。
 

@@ -1,0 +1,7 @@
+/*
+解决 当内容很多时，ios 的滚动比较生涩 的问题。
+https://css-tricks.com/snippets/css/momentum-scrolling-on-ios-overflow-elements/
+*/
+.smooth-scroll {
+  -webkit-overflow-scrolling: touch;
+}
