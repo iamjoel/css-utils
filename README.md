@@ -1,4 +1,7 @@
 # CSS utils collection
+[![NPM version](https://badge.fury.io/js/css-utils-collection.svg)](http://badge.fury.io/js/css-utils-collection)
+[![Open Source Love](https://badges.frapsoft.com/os/mit/mit.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)
+
 常用 CSS 工具类。快速做页面，少写重复代码，减少起类命的痛苦。
 
 ## 安装
